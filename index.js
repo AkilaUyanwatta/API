@@ -14,6 +14,7 @@ app.post('/recordTemp', (req, res) => {
 });
 
 
+
 app.post('/handleJSON', (req, res) => {
     const temp = req.body.temp;
     const light = req.body.light;
